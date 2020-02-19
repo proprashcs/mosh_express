@@ -1,10 +1,10 @@
-const {Customer, validate} = require('../models/customer'); 
+const {Course, validate} = require('../models/course'); 
 const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
 
 router.get('/', async (req, res) => {
-  const customers = await Customer.find().sort('name');
+  const customers = await Course.find().sort('name');
   res.send(customers);
 });
 

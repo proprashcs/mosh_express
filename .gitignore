@@ -1,4 +1,4 @@
-node_modules
-./node_modules/
-./logfile.log/
-./uncoughtExceptions.log/
+node_modules/
+coverage/
+./logfile.log
+./uncoughtExceptions.log
